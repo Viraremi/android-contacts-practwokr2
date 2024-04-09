@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "ru.yandex.practicum.contacts"
         minSdk 24
-        targetSdk 31
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -29,6 +29,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'ru.yandex.practicum.contacts'
 }
 
 dependencies {
